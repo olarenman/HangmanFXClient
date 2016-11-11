@@ -129,7 +129,7 @@ public class HangmanController implements Initializable {
             Task sendGuess = new Task() {
                 @Override
                 protected Object call() throws Exception {
-                    connection.getMessageObj().setGuess(guessField.getText());
+                    connection.getMessageObj().setGuess(guessField.getText().trim());
                     connection.sendGuess();
                     return null;
                 }

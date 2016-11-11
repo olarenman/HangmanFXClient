@@ -25,8 +25,8 @@
                 <TextField fx:id="guessField" layoutX="135.0" layoutY="204.0" prefHeight="26.0" prefWidth="202.0"/>
                 <Button fx:id="sendGuessButton" layoutX="348.0" layoutY="204.0" mnemonicParsing="false"
                         onAction="#sendGuess" text="Send"/>
-                <Label fx:id="currentWord" alignment="CENTER" layoutX="106.0" layoutY="91.0" prefHeight="59.0"
-                       prefWidth="372.0">
+                <Label fx:id="currentWord" alignment="CENTER" layoutX="69.0" layoutY="91.0" prefHeight="77.0"
+                       prefWidth="462.0">
                     <font>
                         <Font size="64.0"/>
                     </font>

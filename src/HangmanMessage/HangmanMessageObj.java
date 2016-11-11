@@ -3,7 +3,7 @@ package HangmanMessage;
 import java.io.Serializable;
 
 /**
- * Object for server communication.
+ * Object for communication with the server.
  */
 public class HangmanMessageObj implements Serializable {
 
